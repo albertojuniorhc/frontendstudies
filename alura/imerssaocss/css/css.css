@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../img/fundo.jpg');
+    background-size: 100vw 100vh;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+/* Se a tela tiver pelo menos 400px, carrega os estilos */
+@media (min-width: 400px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Se a tela tiver pelo menos 600, carrega os estilos */
+@media (min-width: 600px) {
+    body {
+        font-size: 32px;
+    }
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    background-color: slategray;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+    font-weight: bold;
+}
+
+.menu a {
+    text-decoration: none;
+    color: whitesmoke;
+    display: block;
+    padding: 20px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.site-title, 
+.site-subtitle {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.img-portfolio {
+    width: 180px;
+}
+
+section {
+    display: none;
+}

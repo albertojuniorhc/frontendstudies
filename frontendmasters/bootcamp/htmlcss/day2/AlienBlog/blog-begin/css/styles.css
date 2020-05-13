@@ -1,0 +1,132 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0 auto;
+    width: 80%;
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavivanar', cursive;
+    font-weight: normal;
+}
+h2 {
+    font-size: 2rem;
+    color: #A51F10;
+    margin: 0;
+}
+a {
+    color: #DA0090;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.posted {
+    font-size: 0.8rem;
+    color: #89A611;
+}
+
+/*Start of Alberto's Code*/
+
+/*Header*/
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightheader h1 {
+    color: #db0090;
+    margin-left: 1rem;
+    margin-bottom: 0;
+}
+
+.rightheader p {
+    margin-left: 1rem;
+    margin-top: 0;
+}
+
+/*Menu*/
+
+nav ul {
+    border-top: 1px solid #DA0090;
+    border-bottom: 1px solid #a61f11;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+}
+
+nav ul li {
+    padding: 0;
+    margin: 0;
+    padding: 0 1rem;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1rem 0.5rem;
+}
+
+/*General*/
+
+ul {
+    list-style-type: none;
+}
+
+/*Post*/
+
+article img {
+    border-radius: 10%;
+}
+
+.textpost {
+    padding-left: 1rem;
+}
+
+article {
+    margin-bottom: 2.5rem;
+    display: flex;
+    align-items: flex-start;
+}
+
+article div{
+    margin: 0rem;
+    padding: 0rem;
+}
+
+/*Footer*/
+
+footer:before {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 0.5rem;
+    border-top: 1px solid #DA0090;
+    border-bottom: 1px solid #a61f11;
+}
+
+footer {
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+    width: 100%;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li{
+    margin: 0.1rem;
+}

@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    margin-top: 0;
+    border-top: 10px solid black;
+}
+
+a {
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover {
+    color: darkblue;
+    text-decoration: none;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 0.6rem;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+q {
+    font-style: italic;
+}
+
+footer {
+    font-size: 1rem;
+}
+
+.paragraph {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+blockquote {
+    background-color: lightgray;
+    border: 1px solid black;
+    border-left: 3px solid black;
+    padding-top: 0;
+    text-align: center;
+}
+
+img {
+   margin: 1rem;
+}
+
+.floatleft {
+    float: left;
+}
+
+/* If you float, you must clear!*/
+img:after {
+    content: "";
+    display: table;
+    clear: both;
+}

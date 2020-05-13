@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+.floatleft {
+    float: left;
+    border: 0px solid red;
+    /* TRouBLe */
+    margin: 0 1rem 1rem 0;
+}
+
+.floatright {
+    float: right;
+}
+
+article {
+    width: 30rem;
+    border: 3px solid red;
+    /* 0 to the top and botton, and auto to right and left*/
+    margin: 0 auto;
+}
+
+/* If you float, you must clear!*/
+article:after {
+    content: "";
+    display: table;
+    clear: both;
+}
